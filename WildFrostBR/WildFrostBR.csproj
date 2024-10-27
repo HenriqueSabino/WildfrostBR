@@ -125,9 +125,6 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include=".gitignore" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "D:\SteamLibrary\steamapps\common\Wildfrost\Modded\Wildfrost_Data\StreamingAssets\Mods\WildFrostBR\$(ProjectName).dll"</PostBuildEvent>
