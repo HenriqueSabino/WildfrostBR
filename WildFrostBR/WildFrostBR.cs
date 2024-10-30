@@ -616,17 +616,17 @@ namespace WildfrostBR
             table.AddEntry("On Card Played Blaze Tea Random Ally_text", "Adicione <x{a}> <keyword=frenzy> um aliado aleatório e aumente <keyword=counter> em <{a}>");
             table.AddEntry("Summon Scrap Pile_text", "Invoque Pilha de Sucata");
             table.AddEntry("Instant Summon Scrap Pile In Hand_text", "Adicione Pilha de Sucata a sua mão");
-            table.AddEntry("When Hit Add Scrap Pile To Hand_text", "Adicione <card=ScrapPile> a sua mão quando atingido(a)");
+            table.AddEntry("When Hit Add Scrap Pile To Hand_text", "Adicione <card=ScrapPile> com <keyword=zoomlin> a sua mão quando atingido(a)");
             table.AddEntry("Summon Azul Skull_text", "Invoque Caveira Azul");
             table.AddEntry("Instant Summon Azul Skull In Hand_text", "Adicione Caveira Azul a sua mão");
             table.AddEntry("Summon Tiger Skull_text", "Invoque Caveira de Tigre");
             table.AddEntry("Instant Summon Tiger Skull In Hand_text", "Adicione Caveira de Tigre a sua mão");
             table.AddEntry("Summon Yeti Skull_text", "Invoque Caveira de Yeti");
             table.AddEntry("Instant Summon Yeti Skull In Hand_text", "Adicione Caveira de Yeti a sua mão");
-            table.AddEntry("When Ally Summoned Add Skull To Hand_text", "Adicione uma caveira a sua mão");
+            table.AddEntry("When Ally Summoned Add Skull To Hand_text", "Adicione uma caveira a sua mão com <keyword=consume>");
             table.AddEntry("Trigger When Summon_text", "Ativa quando qualquer coisa é invocada");
             table.AddEntry("On Card Apply Demonize To RandomAlly_text", "Aplique <{a}> <keyword=demonize> a um aliado aleatório");
-            table.AddEntry("On Card Played Apply Shroom Overburn Or Bom_text", "Aplique <{a}> <keyword=shroom>/<keyword=overload>/<keyword=weakness>");
+            table.AddEntry("On Card Played Apply Shroom Overburn Or Bom_text", "Aplique <{a}> <keyword=shroom>/<keyword=overload>/<keyword=weakness> aleatoriamente");
             table.AddEntry("Overload Self_text", "Ganhe <{a}><keyword=overload>");
             table.AddEntry("Apply Overload Equal To Overload_text", "Aplique <keyword=overload> atual");
             table.AddEntry("On Hit Equal Shroom To Target_text", "Aplique <keyword=shroom> igual ao dano dado");
@@ -666,7 +666,7 @@ namespace WildfrostBR
             table.AddEntry("On Card Played Gain Dream Card To Hand_text", "Ganhe uma carta de <keyword=dream>");
             table.AddEntry("Give Combo to Card in Hand_text", "Dê <keyword=combo> a uma carta na sua mão");
             table.AddEntry("On Card Played Buff Marowak_text", "Aumente a <keyword=health> ou o <keyword=attack> de <Marowak> em <{a}>");
-            table.AddEntry("Give Thick Club_text", "Ganhe um <Clube dos Bombados> em fins de batalhas");
+            table.AddEntry("Give Thick Club_text", "Ganhe um <Taco Grosso> ao evoluir e em fins de batalhas");
             table.AddEntry("Pre Trigger Gain Temp MultiHit Equal To Curses In Hand_text", "Ataque mais uma vez para cada <maldição> na mão");
             table.AddEntry("Frenzy Equal To Curses In Hand_text", "Has <x{a}><keyword=frenzy> for each <curse> in hand");
             table.AddEntry("On Card Played Give Random Card In Hand While In Hand Reduce Attack To Allies_text", "Dê <keyword=curseofweakness> a uma carta na sua mão");
@@ -699,7 +699,7 @@ namespace WildfrostBR
             table.AddEntry("Evolve Slowpoke_text", "<keyword=evolve>: Visite uma <Caverna Lesmabling> com ou sem uma <sprite name=crown>");
             table.AddEntry("Evolve Seadra_text", "<keyword=evolve>: Jogue <{a}> cartas <keyword=combo>");
             table.AddEntry("Evolve Makuhita_text", "<keyword=evolve>: Dê <{a}> de dano");
-            table.AddEntry("Evolve Cubone_text", "<keyword=evolve>: Fique machucado(a)");
+            table.AddEntry("Evolve Cubone_text", "<keyword=evolve>: Fique machucado(a) <i><color=#A6A6A6>(por quem?)</i></color>");
             table.AddEntry("Double Negative Effects_text", "Dobre os efeitos negativos do alvo");
             table.AddEntry("While Active Increase Effects To Hand_text", "Enquanto ativo(a), melhore os efeitos das cartas na mão em <{a}>");
             table.AddEntry("Redraw Cards_text", "<Recompre>");
@@ -769,7 +769,7 @@ namespace WildfrostBR
             table.AddEntry("bethanw10.wildfrost.allcharms.When Spice Or Shell Applied To Self Null To RandomEnemy_text", "Quando receber <keyword=spice> ou <keyword=shell> aplique <keyword=null> equivalente a um inimigo aleatório");
             table.AddEntry("bethanw10.wildfrost.allcharms.On Card Played Apply Null To Enemies_text", "Aplique <{0}> <keyword=null> a todos inimigos");
             table.AddEntry("bethanw10.wildfrost.allcharms.Add Bell Count To Attack_text", "Adicione o contador do Sino de Recompra ao <keyword=attack>");
-            table.AddEntry("On Hit Snowed Target Double Attack Otherwise Half_text", "Dobre o <keyword=attack> após atingit um alvo com <keyword=snow>, senão diminua o <keyword=attack> pela metade");
+            table.AddEntry("On Hit Snowed Target Double Attack Otherwise Half_text", "Dobre o <keyword=attack> após atingir um alvo com <keyword=snow>, senão diminua o <keyword=attack> pela metade");
             table.AddEntry("When Card Destroyed, Gain Dream Card_text", "Quando uma carta aliada é destruída, ganhe uma carta de <keyword=dream>");
             table.AddEntry("Frenzy Equal To Scrap_text", "Possui <keyword=frenzy> igual a <keyword=scrap>");
             table.AddEntry("When Unit Is Killed Boost Effects_text", "Quando um aliado ou inimigo é morto, melhore os efeitos");
@@ -3133,7 +3133,7 @@ namespace WildfrostBR
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeMagnemite_title", "Amuleto Magnemite");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeMagnemite_text", "Aplique <1> <keyword=shroom>/<keyword=overload>/<keyword=weakness>");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradePluck_title", "Amuleto Murkrow");
-            table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradePluck_text", "Ganhe <keyword=pluck>\r\n<+1><keyword=attack>\r\nCA-CAW");
+            table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradePluck_text", "Ganhe <keyword=pluck>\r\n<+2><keyword=attack>\r\nCA-CAW");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeSketch_title", "Amuleto Smeargle");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeSketch_text", "Ganhe <keyword=sketch> <1>, <keyword=pigheaded> e reduza <keyword=attack> em <2>");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeTaunt_title", "Amuleto Shieldon");
@@ -3142,7 +3142,7 @@ namespace WildfrostBR
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeTyrunt_text", "Ganhe <keyword=wild>\r\nAplique <keyword=wild>\r\nSEJA <SELVAGEM>");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeRevive_title", "Amuleto Reviver");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeRevive_text", "Ganhe <keyword=revive>");
-            table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeThickClub_title", "Clube dos Bombados");
+            table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeThickClub_title", "Taco Grosso");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CardUpgradeThickClub_text", "Ganhe 'aumente a <keyword=health> or <keyword=attack> do <Marowak> em <1>'\r\n\r\nAleatoriamente a cada ativação");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CrownSlowking_title", "Coroa de Shellder");
             table.AddEntry("websiteofsites.wildfrost.pokefrost.CrownSlowking_text", "Cartas com Coroa são sempre jogadas no início da batalha\r\n\r\nAumente <keyword=counter> em <2>");
