@@ -1951,7 +1951,7 @@ namespace WildfrostBR
             table.AddEntry("journal luminice title", "Luminância");
             table.AddEntry("journal luminice note 1", "pressão do vapor");
             table.AddEntry("journal luminice note 2", "vento frio");
-            table.AddEntry("journal luminice note 3", "<voffset=-1em><margin-left=1em>Núcleo de Luminância!");
+            table.AddEntry("journal luminice note 3", "<voffset=-1em><margin-left=1em><size=0.38>Núcleo de Luminância!");
             table.AddEntry("journal luminice note 4", "Bolsa de viagem infundida com Luminância. Pode conter mais do que os olhos podem ver!");
             table.AddEntry("journal frost guardian title", "A Sombra Imperadora");
             table.AddEntry("journal frost guardian 1", "Quando chegamos perto do olho da tempestade, rosnados e rugidos ecoavam nos ventos gélidos, nós encontramos uma sombra de outro mundo...");
