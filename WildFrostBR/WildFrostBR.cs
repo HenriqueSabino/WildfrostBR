@@ -377,7 +377,7 @@ namespace WildfrostBR
             table.AddEntry("Add X to all allies", "Adicione {0} a todos aliados");
             table.AddEntry("Deal additional damage equal to the highest enemy X", "De dano adicional igual ao maior {0} dos inimigos");
             table.AddEntry("When deployed, apply X to all enemies", "Quando posto(a), aplique {0} a todos inimigos");
-            table.AddEntry("Summon a X copy of a random enemy", "Invoque uma {0} copia de um inimigo aleatório");
+            table.AddEntry("Summon a X copy of a random enemy", "Invoque uma copia {0} de um inimigo aleatório");
             table.AddEntry("When an ally is sacrificed, summon a copy of them with X health and X attack", "Quando um aliado é <keyword=sacrificed>, invoque uma cópia dele com <{a}><keyword=health> e <{a}><keyword=attack>");
             table.AddEntry("When an enemy is deployed, gain their X", "Quando um inimigo é posto, ganhe seu ataque {0}");
             table.AddEntry("When deployed, summon a copy of a random enemy with X", "Quando posto(a), invoque uma cópia de um inimigo aleatório com {0}");
@@ -402,7 +402,7 @@ namespace WildfrostBR
             table.AddEntry("When destroyed, apply X to a random enemy", "Quando destruído(a), aplique {0} a um inimigo aleatório");
             table.AddEntry("While active, add X to ink'd allies and enemies", "Enquanto ativo(a), adicione {0} a aliados e inimigos <keyword=null>");
             table.AddEntry("When deployed, summon copies of all enemies with X", "Quando posto(a), invoque cópias de inimigos com {0}");
-            table.AddEntry("When an enemy is deployed, summon a X copy of them", "Quando um inimigo é posto, invoque uma {0} cópia dele");
+            table.AddEntry("When an enemy is deployed, summon a X copy of them", "Quando um inimigo é posto, invoque uma cópia {0} dele");
             table.AddEntry("When an enemy is deployed, take half of their X", "Quando um inimigo é posto(a), pegue metade de seu(ua) {0}");
             table.AddEntry("Before attacking, take X from all enemies", "Antes de atacar, pegue {0} de todos os inimigos");
             table.AddEntry("Before attacking, take X from a random enemy", "Antes de atacar, pegue {0} de um aliado aleatório");
@@ -1951,7 +1951,7 @@ namespace WildfrostBR
             table.AddEntry("journal luminice title", "Luminância");
             table.AddEntry("journal luminice note 1", "pressão do vapor");
             table.AddEntry("journal luminice note 2", "vento frio");
-            table.AddEntry("journal luminice note 3", "Núcleo de Luminância!");
+            table.AddEntry("journal luminice note 3", "<voffset=-1em><margin-left=1em>Núcleo de Luminância!");
             table.AddEntry("journal luminice note 4", "Bolsa de viagem infundida com Luminância. Pode conter mais do que os olhos podem ver!");
             table.AddEntry("journal frost guardian title", "A Sombra Imperadora");
             table.AddEntry("journal frost guardian 1", "Quando chegamos perto do olho da tempestade, rosnados e rugidos ecoavam nos ventos gélidos, nós encontramos uma sombra de outro mundo...");
