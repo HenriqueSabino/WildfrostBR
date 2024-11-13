@@ -4,3 +4,4 @@ packages/
 bin/
 obj/
 *.csproj.user
+project.lock.json
